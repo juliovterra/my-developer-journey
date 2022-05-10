@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-10 08:08:18 "/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUlWQTJQTE87MjAyMi0wNS0wMTsiMDY6NTU6MDUgIjszMDI0"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUlWQTJQTE87MjAyMi0wNS0xMDsiMDg6MDg6MTggIjs1OzMxNDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Este projeto se trata de uma calculadora de m&#233;dias para um determinado &quot;aluno&quot; saber se foi aprovado ou reprovado, lembrando que nesse caso a m&#233;dia &#233; 5!&#13;&#10;&#13;&#10;Rode o projeto e veja!"/>
+            <declare name="nota1, nota2, nota3, nota4, media, total" type="Real" array="False" size=""/>
+            <declare name="NOME, SOBRENOME" type="String" array="False" size=""/>
+            <output expression="&quot;DIGITE SEU NOME&quot;" newline="True"/>
+            <input variable="NOME"/>
+            <output expression="&quot;DIGITE A SUA PRIMEIRA NOTA&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;DIGITE A SUA SEGUNDA NOTA&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;DIGITE A SUA TERCEIRA NOTA&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;DIGITE A SUA QUARTA NOTA&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <assign variable="total" expression="nota1+nota2+nota3+nota4"/>
+            <output expression="&quot;ENT&#195;O &quot; &amp;NOME&amp; &quot; SUA M&#201;DIA FOI: &quot;" newline="True"/>
+            <output expression="media" newline="True"/>
+            <output expression="&quot; E O SOMAT&#211;RIO DAS SUAS NOTAS FOI:&quot;" newline="True"/>
+            <output expression="total" newline="True"/>
+            <if expression="media&gt;5">
+                <then>
+                    <output expression="&quot;PARAB&#201;NS, VOC&#202; FOI APROVADO&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;VOC&#202; N&#195;O EST&#193; APROVADO&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

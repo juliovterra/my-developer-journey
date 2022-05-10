@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-10 07:58:02 "/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUlWQTJQTE87MjAyMi0wNS0wMTsiMDc6NDM6NDEgIjszMDIy"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUlWQTJQTE87MjAyMi0wNS0xMDsiMDc6NTg6MDIgIjsyOzMxMzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Este projeto tem o int&#250;ito de simular uma compra que pode apenas ser concluida caso a pessoa tenha um cart&#227;o de cr&#233;dito.&#13;&#10;&#13;&#10;Rode o projeto e veja!"/>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome&quot;" newline="True"/>
+            <input variable="cliente"/>
+            <output expression="&quot;Tem cart&#227;o de credito? se SIM digite true, se N&#195;O digite false&quot;" newline="True"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <output expression="&quot;Digite o numero do cart&#227;o&quot;" newline="True"/>
+                    <input variable="numero"/>
+                    <output expression="&quot;Compra realizada&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;vendas somente pelo cart&#227;o&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

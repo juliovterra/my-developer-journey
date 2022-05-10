@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-10 08:05:53 "/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUlWQTJQTE87MjAyMi0wNS0wMTsiMDc6Mjc6MTUgIjszMDI1"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUlWQTJQTE87MjAyMi0wNS0xMDsiMDg6MDU6NTMgIjszOzMxMzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Neste projeto aprendi a executar algumas express&#245;es!&#13;&#10;&#13;&#10;Rode o projeto e veja!"/>
+            <output expression="&quot;Digite um n&#250;mero inteiro&quot;" newline="True"/>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <declare name="e" type="Boolean" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="b" expression="a+3"/>
+            <assign variable="c" expression="a+b"/>
+            <assign variable="d" expression="(3*c-b)/a"/>
+            <assign variable="e" expression="d&gt;c"/>
+            <output expression="a" newline="True"/>
+            <output expression="b" newline="True"/>
+            <output expression="c" newline="True"/>
+            <output expression="d" newline="True"/>
+            <output expression="e" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-10 08:02:25 "/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUlWQTJQTE87MjAyMi0wNS0wMTsiMDg6MzI6MTIgIjszMDE5"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUlWQTJQTE87MjAyMi0wNS0xMDsiMDg6MDI6MjUgIjszOzMxMzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Neste projeto aprendi a criar um loop&#13;&#10;&#13;&#10;Rode o projeto e veja!"/>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="0"/>
+            <assign variable="limite" expression="100"/>
+            <while expression="numero&lt;=limite">
+                <output expression="&quot;9 x &quot; &amp;numero&amp; &quot;=&quot; &amp; 9*numero" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

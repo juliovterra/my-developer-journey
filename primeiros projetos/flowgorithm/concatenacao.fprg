@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-10 08:00:06 "/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUlWQTJQTE87MjAyMi0wNS0wMTsiMDg6MDg6MDkgIjszMDI4"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUlWQTJQTE87MjAyMi0wNS0xMDsiMDg6MDA6MDYgIjsyOzMxMjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Neste projeto aprendi sobre concatena&#231;&#227;o.&#13;&#10;&#13;&#10;Rode o projeto e veja!"/>
+            <declare name="NOME, SOBRENOME" type="String" array="False" size=""/>
+            <declare name="IDADE" type="Integer" array="False" size=""/>
+            <output expression="&quot;DIGITE SEU NOME&quot;" newline="True"/>
+            <input variable="NOME"/>
+            <output expression="&quot;DIGITE SEU SOBRENOME&quot;" newline="True"/>
+            <input variable="SOBRENOME"/>
+            <output expression="&quot;DIGITE A SUA IDADE&quot;" newline="True"/>
+            <input variable="IDADE"/>
+            <output expression="&quot;OL&#193; &quot; &amp; NOME &amp; &quot; MUITO BOM TE RECEBER POR AQUI! &quot; &amp;SOBRENOME&amp; &quot; &#201; UM SOBRENOME MUITO BONITO! &quot; &#13;&#10;&#13;&#10;&amp;IDADE&amp; &quot; ANOS &#201; A MELHOR IDADE DE TODAS&quot;" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
