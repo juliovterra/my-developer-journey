@@ -13,8 +13,7 @@ body {
     font-size: 40px;
     text-transform: uppercase;
     text-align: center;
-    margin: 0%;
-    
+    margin: 0%;    
 }
 
 .subtitle {
@@ -37,8 +36,7 @@ a{
     font-style: italic;
     margin: 0;
     margin-bottom: 15px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .post {
@@ -52,8 +50,7 @@ a{
 .post_content {
     margin: 0;
     margin-bottom: 15px;
-    text-align: justify;
-    
+    text-align: justify;    
 }
 
 .post_image {
@@ -65,11 +62,4 @@ a{
     list-style-type: none;
     padding-left: 15px;
     
-}
-
-#contatos {
-    font-weight: bold;
-    font-style: italic;
-    padding-left: 15px;
-
 }
