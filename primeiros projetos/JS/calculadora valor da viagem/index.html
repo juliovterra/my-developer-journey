@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de valor de viajem</title>
+  </head>
+  <body>
+    <h1>CALCULADORA - VALOR DE VIAGEM</h1>
+    <form name="FrmCalc">
+      <input type="text" placeholder="Km/L" size="8" name="txtkm" />
+      <input type="text" placeholder="Valor do combustível" size="15" name="txtvl" />
+      <input type="text" placeholder="Distância em Km" size="15" name="txtdt" />
+      <input type="button" value="Calcular" onclick="calc()" />
+      <input type="reset" value="Limpar" />
+    </form>
+    <div>
+      <h2 id="valor"></h2>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
